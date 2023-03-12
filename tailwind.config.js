@@ -5,15 +5,18 @@ module.exports = {
     extend: {
       maxWidth: {
         "10xl": "1440px",
-        "1110": "1110px"
+        "1110": "1110px",
       },
       fontFamily: {
         Poppins: ["Poppins"],
       },
-      backgroundImage:{
-        "only1":"url(/public/bg.jpg)"
-      }
+      backgroundImage: {
+        only1: "url(/public/bg.jpg)",
+      },
+      textColor: {
+        only1: "#A0A0A0",
+      },
     },
   },
   plugins: [],
-}
+};
