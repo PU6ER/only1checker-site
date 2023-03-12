@@ -5,9 +5,9 @@ const NavBar = () => {
   return (
     <nav className="flex h-16">
       <div className="flex justify-between items-center max-w-1110 w-full h-full mx-auto  my-0 ">
-        <div className="flex items-center">
-          <img src="logo.svg" alt="only1-logo" />
-        </div>
+        
+          <img src={process.env.PUBLIC_URL + "/logo.svg"} alt="only1-logo" />
+        
         <div className="flex items-center">
           <ul className="flex justify-between font-Poppins font-medium text-sm text-only1">
             <Link
