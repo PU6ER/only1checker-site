@@ -15,19 +15,22 @@ module.exports = {
       },
       textColor: {
         only1: "#A0A0A0",
-        only1input: "#4E4E4E"
+        only1input: "#4E4E4E",
       },
       fontSize: {
         40: "40px",
       },
       colors: {
         only1input: "#4E4E4E",
-        only1:"#A0A0A0"
+        only1: "#A0A0A0",
       },
-      content:{
+      content: {
         envelopeLight: "url(/public/envelope-light.svg)",
-        envelope:"url(/public/envelope.svg)"
-      }
+        envelope: "url(/public/envelope.svg)",
+      },
+      spacing: {
+        "55%": "61.5%",
+      },
     },
   },
   plugins: [],
